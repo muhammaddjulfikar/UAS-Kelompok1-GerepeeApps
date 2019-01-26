@@ -1220,7 +1220,7 @@ public class MainView extends javax.swing.JFrame implements PelangganListener,Tr
 
         jLabel43.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Pictures\\2.png")); // NOI18N
 
-        jLabel44.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Downloads\\about kecil.png")); // NOI18N
+        jLabel44.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Downloads\\WhatsApp Image 2019-01-26 at 23.39.33 (1).jpeg")); // NOI18N
 
         jLabel45.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Pictures\\3.png")); // NOI18N
 
@@ -1270,13 +1270,12 @@ public class MainView extends javax.swing.JFrame implements PelangganListener,Tr
                             .addComponent(jLabel43)
                             .addGroup(aboutPanelLayout.createSequentialGroup()
                                 .addGap(10, 10, 10)
-                                .addComponent(jLabel46)))
+                                .addComponent(jLabel46))
+                            .addComponent(jLabel44))
                         .addContainerGap(110, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, aboutPanelLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel44)
-                            .addComponent(jLabel49))
+                        .addComponent(jLabel49)
                         .addGap(97, 97, 97))))
             .addGroup(aboutPanelLayout.createSequentialGroup()
                 .addGap(196, 196, 196)
@@ -1325,10 +1324,10 @@ public class MainView extends javax.swing.JFrame implements PelangganListener,Tr
                     .addGroup(aboutPanelLayout.createSequentialGroup()
                         .addGap(13, 13, 13)
                         .addComponent(jLabel45))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, aboutPanelLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel44)
-                        .addGap(18, 18, 18)))
+                    .addGroup(aboutPanelLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(38, 38, 38)
                 .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel48)
                     .addComponent(jLabel49))
@@ -1336,7 +1335,7 @@ public class MainView extends javax.swing.JFrame implements PelangganListener,Tr
                 .addGroup(aboutPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel42)
                     .addComponent(jLabel50))
-                .addContainerGap(48, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         centerPanel.add(aboutPanel, "card4");
