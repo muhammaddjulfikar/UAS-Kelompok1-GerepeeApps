@@ -1,0 +1,10 @@
+edu.kelompok1.gerepeapps.controller
+edu.kelompok1.gerepeapps.database
+edu.kelompok1.gerepeapps.entity
+edu.kelompok1.gerepeapps.error
+edu.kelompok1.gerepeapps.event
+edu.kelompok1.gerepeapps.impl
+edu.kelompok1.gerepeapps.main
+edu.kelompok1.gerepeapps.model
+edu.kelompok1.gerepeapps.service
+edu.kelompok1.gerepeapps.view
